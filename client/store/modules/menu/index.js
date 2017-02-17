@@ -19,6 +19,14 @@ const state = {
       },
       component: lazyLoading('dashboard', true)
     },
+    {
+      name: 'Axios',
+      path: '/axiosDemo',
+      meta: {
+        icon: 'fa-tachometer'
+      },
+      component: lazyLoading('axios', true)
+    },
     charts,
     uifeatures,
     components,
